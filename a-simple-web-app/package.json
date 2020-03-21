@@ -1,0 +1,14 @@
+{
+  "name": "a-simple-web-app",
+  "version": "1.0.0",
+  "description": "a simple webApp hosted inside a docker container",
+  "main": "app.js",
+  "author": "github.com/chandan24",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
