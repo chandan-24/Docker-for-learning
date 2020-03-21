@@ -3,9 +3,9 @@
 **How to use it**
 * Clone the repo, open the terminal in the context of repo/a-simple-web-app Directory.
 * Build image using the [Dockerfile](Dockerfile), use below command
-* docker build -t yourDockerID/myApp:v1 . 
+* **docker build -t yourDockerID/myApp:v1 .**
 * Now final step is to create a container with port forwarding so that request to the host system can be redirected to running container.
-* docker run -p 3000:8080 -it yourDockerID/myApp:v1
+* **docker run -p 3000:8080 -it yourDockerID/myApp:v1**
 * Congratulaions! you are done.
 
 **WebApp url pattern**
