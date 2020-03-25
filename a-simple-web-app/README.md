@@ -1,4 +1,5 @@
 ## A Simple Node Web App running inside container.
+- The purpose of building this app is to learn how to deploy a web app using **Dockerfile**
 
 **How to use it**
 * Clone the repo, open the terminal in the context of repo/a-simple-web-app Directory.
